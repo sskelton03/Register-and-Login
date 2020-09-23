@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/colorPrimary"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME! REGISTER AND LOGIN APP!"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageView
+        android:id="@+id/SplashPic"
+        android:layout_width="392dp"
+        android:layout_height="401dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:maxWidth="1500dp"
+        android:maxHeight="1500dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+
+</LinearLayout>
